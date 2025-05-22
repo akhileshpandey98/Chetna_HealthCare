@@ -1,0 +1,358 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+}
+
+p{
+  text-align: justify;
+}
+
+.conimg {
+  background-image: url('Group 997.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  min-height: 70px;
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.btn{
+  border-radius: 10px;
+  background-color: #78b92b;
+}
+.btn1 {
+  height: 50px;
+  min-width: 200px;
+  border-radius: 10px;
+  background-color: #78b92b;
+  font-weight: bold;
+
+}
+
+.calling {
+  min-height: 60px;
+  /* min-width: 200px; */
+  background-image: url('Calling.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+  
+}
+
+.doctor {
+  min-height: 450px;
+  background-image: url('doctor_image.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+
+}
+
+
+
+.greenline {
+  min-height: 7px;
+  background-image: url('green_line.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* our services */
+
+.arrow {
+  min-height: 40px;
+  width: 70px;
+  background-color: #307bc4;
+  border-top-left-radius: 20px;
+  /* margin-inline-start: 163px; */
+float: right;
+transform: translateY(-50px);
+margin-top: 10px;
+
+
+
+}
+
+.service-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 3px 2px 8px 4px rgb(142, 141, 141);
+}
+
+.service-card .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  min-height: 50px;
+  background-image: url('iconbox1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.service-card .arrow {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #007bff;
+}
+
+/* happy client */
+
+.rectangle_img {
+  min-height: 500px;
+  background-image: url('Rectangle 651.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.star-rating {
+  color: orange;
+  font-size: 1.1em;
+}
+
+.testimonial-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: white;
+  /* box-shadow: 3px 2px 9px 3px rgb(190, 181, 181); */
+}
+
+
+.testimonial-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial-card .name {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* appoinment */
+
+.appointment-form {
+
+  /* margin: auto; */
+  /* padding: 30px; */
+  background: #f8f9fa;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+input[type="text"] {
+  border: 1px solid #307bc4;
+  /* Change text color */
+}
+input[type="radio"]{
+  border: 1px solid #307bc4;
+}
+input[type="date"]{
+  border: 1px solid #307bc4;
+}
+input[type="time"]{
+  border: 1px solid #307bc4;
+}
+input[type="email"]{
+  border: 1px solid #307bc4;
+}
+.textarea{
+  border: 1px solid #307bc4;
+}
+
+
+/* .doctor_backgroungd {
+  min-height: 500px;
+  background-image: url('Vector (1).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+} */
+
+.doctor_img {
+  min-height: 400px;
+  background-image: url('hand_doctor.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+
+.box {
+  border-radius: 20px;
+  /* border-color: 5px solid rgb(57, 52, 52); */
+  /* box-shadow: 2px 3px 9px 2px rgb(116, 216, 231); */
+
+}
+
+/* footer */
+
+.map {
+  height: 150px;
+  background-image: url('map.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.social-icon {
+  width: 30px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  text-align: start;
+}
+
+.call
+{
+  width: 50px;
+  height: 50px;
+  align-items: center;
+
+  border-radius: 10px;
+  color: blue;
+  font-size: 24px;
+  margin: 10px;
+  text-align: start;
+  background:url('iconbox_icon (1).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}  
+
+
+
+/* Abous us CSS */
+
+
+
+.logo {
+  min-height: 70px;
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+/* about_us */
+
+.man {
+  min-height: 550px;
+  background-image: url('man.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
+
+.about-section {
+  padding: 50px 0;
+}
+
+
+.about-text {
+  line-height: 35px;
+}
+
+/* our_Spacilist */
+
+.Spacilist {
+  height: 300px;
+  background-image: url('spacilist.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+
+}
+
+
+.box {
+  border-radius: 20px;
+
+
+}
+
+/* Services */
+
+
+.feature-title {
+  font-weight: bold;
+}
+
+.feature-description {
+  text-align: justify;
+}
+
+.icon1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: blue;
+  background: url('icon1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 15px;
+}
+
+.icon2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: blue;
+  background: url('icon2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 15px;
+}
+
+.icon3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: blue;
+  background: url('icon3.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 15px;
+}
+
+.icon4 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: blue;
+  background: url('icon4.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 15px;
+}
+
+/* footer */
+.map {
+  height: 150px;
+  background-image: url('map.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
